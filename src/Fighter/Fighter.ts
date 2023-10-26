@@ -8,7 +8,7 @@ export interface SimpleFighter {
   receiveDamage(attackPoints: number): number
 }
 
-export default interface Fighter extends SimpleFighter {
+export interface Fighter extends SimpleFighter {
   defense: number;
   energy?: Energy;
 
